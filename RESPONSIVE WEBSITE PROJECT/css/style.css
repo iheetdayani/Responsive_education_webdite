@@ -1,0 +1,252 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+*{
+    margin:0;
+    padding:0;
+}
+.navbar{
+    display:flex;
+    align-items: center;
+    justify-content:center;
+position: sticky;
+top:0;
+cursor: pointer;
+/* height:542px; */
+}
+.nav-list{
+width:70%;
+align-items:center;
+display:flex;
+flex-direction:row;
+}
+
+.nav-list li{
+list-style:none;
+padding:15px 18px;
+}
+.nav-list li a{
+text-decoration:none;
+color:white;
+font-size:20px;
+font-family: "Ubuntu", sans-serif;
+
+}
+.nav-list li a:hover{
+    text-decoration:none;
+    color:grey;
+    }
+.right-nav{
+    /* margin:auto; */
+    width:30%;
+    text-align: right;
+    padding:0 23px;
+
+text-align: right;
+}
+.logo img{
+    width:33%;
+    border-radius:50px;
+    display:flex;
+    border:3px solid white;
+}
+html{
+    scroll-behavior: smooth;
+}
+.logo{
+  width:26%;
+  display:flex;
+  justify-content:center;
+  margin:5px 0px;
+}
+img.imgfluid {
+    width: 208px;
+}
+.line{
+    width:33px;
+    background-color:white;
+    height:4px;
+    margin:5px 3px;
+}
+.burger{
+    position: absolute;
+    cursor:pointer;
+    right:5%;
+    top:15px;
+    display:none;
+}
+#search{
+    padding:5px;
+    font-size:17px;
+    border:2px solid grey;
+    border-radius:9px;
+    width:61%;
+}
+.background{
+    background:rgba(0, 0,0, 0.7) url('../img/image.png');
+background-size:cover;
+background-blend-mode:darken;
+}
+.box-main{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    color:white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin:auto;
+    height:65%;
+   
+}
+.firstSection{
+    height:100vh;
+    display: flex;
+    
+
+}
+.firstHalf{
+ width:80%;
+ display:flex;
+ justify-content:center;
+ flex-direction: column;
+}
+.secondHalf{
+width:30%;
+}
+.secondHalf img{
+ width:70%;
+ padding:4px 0;
+ display: block;
+ border:4PX solid WHITE;
+ BORDER-RADIUS:150PX;
+ margin: auto;
+}
+.text-big{
+ font-size:41px;
+
+}
+.text-small{
+font-size:18px;
+}
+.btn{
+padding:8px 20px;
+margin:8px 3px;
+border:2px solid white;
+font-size:20px;
+font-size:20px;
+border-radius:8px;
+background:none;
+color:white;
+cursor: pointer;
+font-family: "Ubuntu", sans-serif;
+}
+.btn-sm{
+    padding:6px 10px;
+    vertical-align:middle;
+    font-size:16px;
+}
+.section{
+    justify-content:center;
+    align-items:center;
+    justify-content:space-evenly;
+    display: flex;
+ padding:10px;
+    max-width:80%;
+    margin:auto;
+    font-family: "Ubuntu", sans-serif;
+
+}
+.section-left{
+   
+    flex-direction:row-reverse;
+}
+.Paras{
+padding:0px 65px;
+}
+.sectionSubTag{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+img.imgfluid {
+    width: 208px;
+    border-radius: 26px;
+    border: 2px solid black;
+    margin-top: 19px;
+}
+.sectionTag{
+    padding:16px 0px;
+}
+.contact{
+    background-color:#f6f5f4;
+    
+    height:833px;
+}
+.text-center{
+    text-align:center;
+    font-family: "Ubuntu", sans-serif;
+    padding-top:30px;
+    font-size:35px;
+}
+.text-footer{
+    text-align:center;
+    font-family: "Ubuntu", sans-serif;
+    padding-top:30px 0;
+    justify-content:center;
+    display:flex;
+    color:white;
+}
+.btn-dark{
+    color:black;
+    border:2px solid rgb(196, 190, 190);
+}
+.form{
+    max-width:62%;
+    margin:25px auto;
+}
+.form input{
+    font-size:19px;
+    border-radius:6px;
+    padding:5px 3px;
+    width:100%;
+    border:2px soild grey;
+    margin:15px 0;
+}
+@media only screen and (max-width:1140px) {
+    .nav-list {
+        flex-direction: column;
+    }
+    .navbar {
+        flex-direction: column;
+        height:542px;
+    }
+    .right-nav{
+        text-align: center;
+    }
+    #serch{
+        width:100%;
+    }
+    .burger{
+        display:block;
+    }
+    .h-nav-resp{
+        height:72px;
+    }
+    .v-class-resp{
+        opacity:0;
+    }
+    .box-main{
+        flex-direction:column-reverse;
+        max-width:100%;
+    }
+    .section{
+    flex-direction:column-reverse;
+}
+.text-small{
+    text-align:center;
+}
+.text-big{
+    text-align:center;
+}
+.buttons{
+    text-align:center;
+}
+.Paras{
+    padding:0px;
+}
+}
